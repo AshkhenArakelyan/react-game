@@ -1,0 +1,28 @@
+@import '../../styles/colors';
+
+.app-card {
+    padding: 20px;
+    background-color: $primary-color;
+    cursor: pointer;
+    margin-right: 10px;
+    &__text {
+        font-size: 25px;
+        font-weight: 600;
+        color: #fff;
+    }
+}
+.hidden-numbers {
+    position: relative;
+}
+.hidden-numbers::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/question-sign.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

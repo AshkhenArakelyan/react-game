@@ -1,0 +1,14 @@
+@import '../../styles/colors';
+
+.app-computer-turn-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    &__loading {
+        height: 75px;
+    }
+    &__computer-card {
+        background-color: $secondary-color;
+    }
+}
